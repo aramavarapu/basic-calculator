@@ -12,7 +12,8 @@ public class BasicCalculator {
         System.out.println("(S)ubtract");
         System.out.println("(M)ultiply");
         System.out.println("(D)ivide");
-        System.out.println("Please select an option: ");
+        System.out.print("Please select an option: ");
+        String option = scanner.next();
         int product = firstNum * secondNum;
         System.out.println(firstNum + " * " + secondNum + " = " + product);
 
