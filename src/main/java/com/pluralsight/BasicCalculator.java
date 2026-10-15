@@ -7,6 +7,12 @@ public class BasicCalculator {
         int firstNum = scanner.nextInt();
         System.out.print("What is the second number: ");
         int secondNum = scanner.nextInt();
+        System.out.println("Possible calculations: ");
+        System.out.println("(A)dd");
+        System.out.println("(S)ubtract");
+        System.out.println("(M)ultiply");
+        System.out.println("(D)ivide");
+        System.out.println("Please select an option: ");
 
 
     }
