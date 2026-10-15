@@ -13,6 +13,8 @@ public class BasicCalculator {
         System.out.println("(M)ultiply");
         System.out.println("(D)ivide");
         System.out.println("Please select an option: ");
+        int product = firstNum * secondNum;
+        System.out.println(firstNum + " * " + secondNum + " = " + product);
 
 
     }
